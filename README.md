@@ -25,10 +25,3 @@ new absolute path. The local server binds to `127.0.0.1:5000`.
 curl -sS http://127.0.0.1:5000/health
 curl -sS 'http://127.0.0.1:5000/orders?status=paid'
 ```
-
-`AGENTS.md` contains the exercise constraints. The eight inherited tests pass.
-The solution is distributed separately so this folder can be opened on its own
-in an empty Cursor window. Its schema and seed are identical to the solution's;
-the solution changes the database only by adding four indexes.
-
-Origin: prepared with Codex; no Gemini or personal-authorship claim is made.
